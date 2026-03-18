@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cougar Photography Company - Student Photography Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Cougar Photography </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="order.html" class="nav-link order-btn">order Now</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Capturing Your</span>
+                    <span class="title-line">Unforgettable</span>
+                    <span class="title-line accent">Moments</span>
+                </h1>
+                <p class="hero-subtitle">Professional photography for proms, sports, theatre, assemblies, and every milestone that matters.</p>
+                <div class="hero-cta">
+                    <a href="order.html" class="btn btn-primary">order Your Session</a>
+                    <a href="portfolio.html" class="btn btn-secondary">View Our Work</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="Cougar Logo">
+                <svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#FF6B35;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#F7931E;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <rect width="400" height="600" fill="url(#grad1)" opacity="0.15"/>
+                    <circle cx="200" cy="200" r="80" fill="#FF6B35" opacity="0.2"/>
+                    <path d="M150,350 Q200,300 250,350 T350,350" stroke="#F7931E" stroke-width="3" fill="none" opacity="0.3"/>
+                </svg>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What We Do</span>
+                <h2 class="section-title">Our Services</h2>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-number">01</div>
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Prom & Formals</h3>
+                    <p class="service-desc">Capture the elegance and excitement of your special night with stunning portraits and candid moments.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-number">02</div>
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Sports Events</h3>
+                    <p class="service-desc">Action-packed shots that freeze the intensity, athleticism, and triumph of game day.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-number">03</div>
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="2" y="7" width="20" height="14" rx="2"/>
+                            <path d="M16 2v5M8 2v5M2 11h20"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Theatre & Arts</h3>
+                    <p class="service-desc">Dramatic lighting and composition that brings performances to life in every frame.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-number">04</div>
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Assemblies & Events</h3>
+                    <p class="service-desc">Professional coverage of graduations, ceremonies, and special school gatherings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Work Preview -->
+    <section class="featured-work">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Recent Projects</span>
+                <h2 class="section-title">Featured Work</h2>
+            </div>
+
+            <div class="work-grid">
+                <div class="work-item work-large">
+                    <div class="work-image">
+                        <img src="images/06.jpeg" alt="Featured work 06" />
+                    </div>
+                    <div class="work-info">
+                        <h3>Featured Sports 06</h3>
+                        <span>Action Shot</span>
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-image">
+                        <img src="images/Copy of IMG_0072.JPG" alt="Featured portrait IMG_0072" />
+                    </div>
+                    <div class="work-info">
+                        <h3>Portrait IMG_0072</h3>
+                        <span>Portrait Session</span>
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-image">
+                        <img src="images/Copy of Together_We_Thrive.jpg" alt="Featured event Together We Thrive" />
+                    </div>
+                    <div class="work-info">
+                        <h3>Together We Thrive</h3>
+                        <span>Event Highlight</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-center">
+                <a href="portfolio.html" class="btn btn-outline">View Full Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Capture Your Next Event?</h2>
+                <p class="cta-text">Let's create memories that last forever. Order your photography session today.</p>
+                <a href="order.html" class="btn btn-primary btn-large">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="logo">Cougar Photography Co.</h3>
+                    <p>Capturing moments that matter.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <a href="index.html">Home</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="about.html">About</a>
+                        <a href="order.html">order Now</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <a href="mailto:info@framecapture.com">brunncaleb@gmail.com</a>
+                        <a href="tel:+13413147256">(341)-314-7256</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cougar Photography Co. Student Entrepreneurship Project.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
